@@ -1,6 +1,6 @@
 import requests
 
-from bcsearch.constants import PUSHBULLET_API_KEY
+from .constants import PUSHBULLET_API_KEY
 
 
 def pb_notify(title, body):
